@@ -6,10 +6,11 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 이재찬
+title: DevOps 엔지니어
+email: dlwocks13@gmail.com
+blog: https://velog.io/@xgro
+
 
 # Dark Mode (true/false/never)
 darkmode: false
