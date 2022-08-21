@@ -23,7 +23,7 @@ linkedin_username: xgro
 # 프로필 작성
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile1.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -66,7 +66,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 
           - 
-          -
+          - 
           -  
 
   - title: Projects # Title for the section
@@ -94,7 +94,7 @@ content:
       - layout: left
         title: 코드스테이츠 DevOps Bootcamp
         caption: 2022.03 - 2022.08
-        sub_title: DevOps Bootcamp
+        sub_title: DevOps Bootcamp 02기
         quote: >
           this is quote sesion
         description: | # this will include new lines to allow paragraphs
