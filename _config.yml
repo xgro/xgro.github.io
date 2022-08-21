@@ -27,7 +27,6 @@ about_profile_image: images/profile1.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
-
 # 콘텐츠 작성
 content:
   - title: Skills # Title for the section
@@ -36,13 +35,6 @@ content:
       - layout: left
         # 제목
         title: DevOps
-        # 
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        # sub_title: Senior Network System Administrator
-        # 캡션
-        # caption: November 2017 - Present
-        # 
         quote: >
           this is quote sesion
         description: | # this will include new lines to allow paragraphs
@@ -64,10 +56,10 @@ content:
         quote: >
           this is quote sesion
         description: | # this will include new lines to allow paragraphs
-          - 
-          - 
-          - 
-          -  
+          - this is description 1 sesion
+          - this is description 2 sesion
+          - this is description 3 sesion
+          - this is description 4 sesion 
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -98,7 +90,8 @@ content:
         quote: >
           this is quote sesion
         description: | # this will include new lines to allow paragraphs
-          - this is description sesion
+          ## DevOps
+          this is description sesion
 
   - title: A Little More About Me
     layout: text
