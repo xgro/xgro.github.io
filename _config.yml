@@ -35,26 +35,26 @@ content:
       - layout: left
         title: AWS Cloud Migration 
         sub_title: On-premise to AWS Cloud
-        link: https://xgro.notion.site/04-2e4369d70b3d49efb8d75c8900c62f8e
+        link: https://xgro.notion.site/AWS-Cloud-Migration-2e4369d70b3d49efb8d75c8900c62f8e
         # link_text: Project Website
         additional_links:
-          - title:  xgro/Cloud_Migration
+          - title: xgro/Cloud_Migration
             icon: fab fa-github
             url: github.com/xgro/Cloud_Migration
         quote: >
           클라이언트 요구사항에 따라 온프레미스 환경에서 설치 및 운영되고 있는 사내 정보 시스템을 AWS 클라우드로 이관
         description: | # this will include new lines to allow paragraphs
           - <mark>VPC 엔드포인트</mark> 이용하여 서비스 구축시 트래픽 약 285GB 기점으로 비용 절감
-          - JWT 토큰 기반의 인증 API Gateway 권한부여자로 처리함으로서 서버 속도 개선
-          - Private 환경으로 프로젝트 구성
-          - Cloudmap 사용으로 Service Discovery 구현
+          - JWT 토큰 기반 인증 시스템 API Gateway <mark>권한부여자 구현</mark>함으로서 인증 서버 속도 개선
+          - Private 환경으로 인스턴스 구성
+          - Cloudmap 사용으로 PrivateLink 사용시 
           - DynamoDB 이용을 위한 Backend 프로그램 작성
           - Terraform 코드 작성 및 GitOps 환경 구축
 
       - layout: left
-        title: AWS MSA
+        title: AWS Micro Service Architecture
         sub_title: Inventory Management
-        link: https://xgro.notion.site/MSA-Serverless-83d38108079f412a84fdff4d8396a08a
+        link: https://xgro.notion.site/AWS-Micro-Service-Architecture-83d38108079f412a84fdff4d8396a08a
         # link_text: Project Website
         additional_links:
           - title:  xgro/inventory_management
@@ -73,7 +73,7 @@ content:
       - layout: left
         title: AWS Continuous Deploy 
         sub_title: Amazon Elastic Container Service
-        link: https://xgro.notion.site/AWS-ECS-093baf2ad9c847d4bbb7aaf3bf4440a1
+        link: https://xgro.notion.site/AWS-Continuous-Deploy-093baf2ad9c847d4bbb7aaf3bf4440a1
         # link_text: Project Website
         additional_links:
           - title:  xgro/continuous_deploy
@@ -82,30 +82,35 @@ content:
         quote: >
           클라이언트 요구사항에 따라 어플리케이션을 AWS 컨테이너 서비스로 이관하고 CI/CD 파이프라인 구축
         description: | # this will include new lines to allow paragraphs
-          - AWS Codebuild으로 React artifact to S3 <mark>CI/CD 파이프라인</mark>
-          - Github Action으로 fastify artifact to ECS <mark>CI/CD 파이프라인</mark>  
+          - AWS Codebuild로 React artifact to S3 CI/CD 파이프라인 구축
+          - Github Action으로 fastify artifact to ECS CI/CD 파이프라인 구축
           - AWS ECS 서비스를 이용하여 어플리케이션 <mark>컨테이너 환경</mark> 배포
           - Cloudfront 및 ALB 사용하여 https 리다이렉션 기능
           - mongoDB Backend 코드 작성
-          - Terraform 코드 작성하여 IaC 환경 구축 
+          - Terraform 작성
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 코드스테이츠
-        caption: 2022.03 - 2022.08
         sub_title: DevOps Bootcamp 02기
+        caption: 2022.03 - 2022.08
         quote: >
           DevOps 엔지니어에게 필요한 기본 개념 및 배포 환경 구성 교육
         description: | # this will include new lines to allow paragraphs
-          - AWS 서비스를 이용하여 인프라 구축
-          - AWS CodePipeline 및 Github action CI/CD 파이프라인 
-          - Private 환경 어플리케이션 구축
-          - IaC를 이용하여 인프라를 코드로 구성
-          - 컨테이너 환경으로 어플리케이션 배포
-          - helm 이용한 prometheus-grafana 모니터링 구축
           - 자바스크립트의 기본 문법 이해
+          - 리눅스 운영체제 기초
+          - 웹서비스 및 네트워크 개발 기초
+          - AWS 서비스를 이용하여 인프라 구축
+          - 컨테이너 환경 어플리케이션 배포
+          - 지속적 통합/배포
+          - MSA 구성 및 배포
+          - IaC를 이용하여 인프라를 코드로 구성
+          - 컨테이너 오케스트레이션
+          - 모니터링 시스템
+          - 성능 테스트
+
           
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
