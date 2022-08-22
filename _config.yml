@@ -50,6 +50,24 @@ content:
           - VPC 엔드포인트 이용하여 서비스 구축시 트래픽 약 285GB 기점으로 비용 절감
           - JWT 토큰 기반의 인증 API_Gateway에서 권한부여자로 처리함으로서 서버 속도 개선
 
+      - layout: left
+        title: MSA Architecture
+        link: https://xgro.notion.site/MSA-Serverless-83d38108079f412a84fdff4d8396a08a
+        # link_text: Project Website
+        additional_links:
+          - title:  xgro/inventory_management
+            icon: fab fa-github
+            url: github.com/xgro/inventory_management
+        quote: >
+          클라이언트 요구사항에 따라 “자동 재고 확보 시스템”을 Micro Service Architecture로 구성
+        description: | # this will include new lines to allow paragraphs
+          - Serverless framework를 이용하여 Lambda 배포
+          - SQS를 이용하여 서비스간 느슨한 결합 구성
+          - Dead Letter Queue를 이용하여 메시지 전달 실패시 리드라이브를 통해 시스템 안정성 확보 
+          - 서비스 외부의 Callback 메시지를 수신하여 재고 관리
+          - k6 이용하여 성능 테스트
+          - Terraform 코드 작성하여 IaC 환경 구축 
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
