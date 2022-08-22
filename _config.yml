@@ -32,16 +32,16 @@ about_content: | # this will include new lines to allow paragraphs
   ---
 
   ## **저는 이런 사람입니다.**
-  - 책임감이 강하고 목표를 달성하기 위해 [노력합니다.](images/project04.jpeg)
-  - 불편한 것을 당연히 여기지 않으며 이를 개선하기 위한 방안을 [찾습니다.](https://velog.io/@xgro/%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-%EA%B7%80%EC%B0%AE%EC%95%84)
-  - 성장 과정에서 배운것을 구성원들과 공유하고 피드백을 받으며 일하는것을 [좋아합니다.](https://xgro.notion.site/reputation-41c97f2bf15b4fcb9d3718f356c8dd71) 
+  - 책임감이 강하고 목표를 달성하기 위해 [<U>노력합니다.</U>](images/project04.jpeg)
+  - 불편한 것을 당연히 여기지 않으며 이를 개선하기 위한 방안을 [<U>찾습니다.</U>](https://velog.io/@xgro/%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-%EA%B7%80%EC%B0%AE%EC%95%84)
+  - 성장 과정에서 배운것을 구성원들과 공유하고 피드백을 받으며 일하는것을 [<U>좋아합니다.</U>](https://xgro.notion.site/reputation-41c97f2bf15b4fcb9d3718f356c8dd71)
 
   ---
 
   ## **저의 목표는 다음과 같습니다.**
   - 동료 개발자들이 마음놓고 실수 할 수 있는 개발환경을 구축하고 싶습니다.
-  - FinOps에 관심이 [많습니다.](https://velog.io/@xgro/VPC-Endpoint) 담당하는 인프라에 대한 이해를 바탕으로 비용 최적화를 구현하는 엔지니어가 되고자 합니다.
-  - 실수를 줄이기 위해 코드로서 인프라를 관리하는 IaC에 관심이 [많습니다.](https://velog.io/@xgro/terraform-infra-provisioning)
+  - [<U>FinOps에 관심이 많습니다.</U>](https://velog.io/@xgro/VPC-Endpoint) 담당하는 인프라에 대한 이해를 바탕으로 비용 최적화를 구현하는 엔지니어가 되고자 합니다.
+  - 실수를 줄이기 위해 코드로서 인프라를 관리하는 [<U>IaC에 관심이 많습니다.</U>](https://velog.io/@xgro/terraform-infra-provisioning)
 
 # 콘텐츠 작성
 content:
