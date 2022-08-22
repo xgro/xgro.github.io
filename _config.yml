@@ -17,7 +17,7 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  xgro
+github_username: xgro
 linkedin_username: xgro
 
 # 프로필 작성
@@ -29,52 +29,22 @@ about_content: | # this will include new lines to allow paragraphs
 
 # 콘텐츠 작성
 content:
-  - title: Skills # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        # 제목
-        title: DevOps
-        quote: >
-          this is quote sesion
-        description: | # this will include new lines to allow paragraphs
-          - this is description 1 sesion
-          - this is description 2 sesion
-          - this is description 3 sesion
-          - this is description 4 sesion 
-          
-      - layout: left
-        # 제목
-        title: AWS
-        # 
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        # sub_title: Senior Network System Administrator
-        # 캡션
-        # caption: November 2017 - Present
-        # 
-        quote: >
-          this is quote sesion
-        description: | # this will include new lines to allow paragraphs
-          - this is description 1 sesion
-          - this is description 2 sesion
-          - this is description 3 sesion
-          - this is description 4 sesion 
-
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: 
         link: github.com/sproogen
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
             url: github.com/sproogen/modern-resume-theme
+
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            
         quote: >
           this is quote sesion
         description: | # this will include new lines to allow paragraphs
@@ -84,14 +54,49 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 코드스테이츠 DevOps Bootcamp
+        title: 코드스테이츠
         caption: 2022.03 - 2022.08
         sub_title: DevOps Bootcamp 02기
         quote: >
           this is quote sesion
         description: | # this will include new lines to allow paragraphs
-          ## DevOps
+          ## **DevOps**
           this is description sesion
+          ## 
+
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    link: https://xgro.notion.site/Establish-database-I-learned_-3bc7e72bbd8b47ff8af7c5b796cbd1ad
+    quote: >
+      현재 업무에 사용중 또는 사용가능한 기술들입니다.
+    content:
+      - layout: left
+        # 제목
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
+          - Docker, Kubernetes
+          - Terraform
+          - Prometheus, Grafana
+          - k6
+          - Nginx, Apache
+          
+      - layout: left
+        # 제목
+        title: AWS
+        description: | # this will include new lines to allow paragraphs
+          - EC2, Lambda
+          - ECS, ECR
+          - Cloudformation
+          - S3
+          - SNS, SQS
+          - VPC, Route53, Cloudfront, API_Gateway
+          - Code[Commit, Build, Deploy, Pipeline]
+
+      - layout: left
+        # 제목
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          - Node.js, express, fastify
 
   - title: A Little More About Me
     layout: text
