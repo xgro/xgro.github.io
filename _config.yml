@@ -1,6 +1,6 @@
 # Site
 repository: xgro/xgro.github.io
-# favicon: images/favicon.ico
+favicon: images/xgro.ico
 
 # Content configuration version
 version: 2
@@ -33,7 +33,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 온프레미스 모놀리틱 서버 - AWS 클라우드 마이그레이션 
+        title: AWS Cloud Migration 
         link: https://xgro.notion.site/04-2e4369d70b3d49efb8d75c8900c62f8e
         # link_text: Project Website
         additional_links:
@@ -43,21 +43,12 @@ content:
         quote: >
           클라이언트 요구사항에 따라 온프레미스 환경에서 설치 및 운영되고 있는 사내 정보 시스템을 AWS 클라우드로 이관
         description: | # this will include new lines to allow paragraphs
-          ## **What I Did_**
-          
-          - JWT 토큰 기반의 인증 시스템 Lambda Authorizer 분리
           - Private 환경으로 프로젝트 구성
           - Cloudmap 사용으로 Service Discovery 구현
           - DynamoDB 이용을 위한 Backend 프로그램 작성
           - Terraform 코드 작성 및 GitOps 환경 구축
-          
-          ## **Result_**
-          - VPC 엔드포인트 이용하여 서비스 구축시 285GB 기점으로 비용 절감
-          - 모든 서비스를 Private 환경에서 구축
-          - 유저 인증을 API_Gateway에서 권한부여자로 처리함으로서 서버 속도 개선
-          
-          ## **Stack_**
-          - API_Gateway, Lambda, Cloudmap, EC2, ECS, ECR, PrivateLink, Terraform, DynamoDB, ELB
+          - VPC 엔드포인트 이용하여 서비스 구축시 트래픽 약 285GB 기점으로 비용 절감
+          - JWT 토큰 기반의 인증 API_Gateway에서 권한부여자로 처리함으로서 서버 속도 개선
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -69,9 +60,8 @@ content:
         quote: >
           DevOps 엔지니어에게 필요한 기본 개념 및 배포 환경 구성 교육
         description: | # this will include new lines to allow paragraphs
-          ## **DevOps**
           - AWS 서비스를 이용하여 인프라 구축
-          - AWS Code를 이용하여 CI/CD 파이프라인 구축
+          - AWS Code를 이용하여 CI/CD 파이프라인 
           - 서버리스 서비스를 이용하여 인프라 구축
           - Private 환경 어플리케이션 구축
           - 어플리케이션 컨테이너화
@@ -109,7 +99,7 @@ content:
           - S3
           - SNS, SQS
           - VPC, Route53, Cloudfront, API_Gateway
-          - Code[Commit, Build, Deploy, Pipeline]
+          - CodeCommit, CodeBuild, CodeDeploy, CodePipeline
 
       - layout: left
         # 제목
