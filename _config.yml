@@ -25,7 +25,23 @@ linkedin_username: xgro
 # about_title: About Me
 about_profile_image: images/profile1.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  개발자로 일을 하면서 지속적으로 문제에 직면하게 된다는 점, 이를 해결하는 과정에서 새로운 것을 축적해 나갈 수 있다는 점이 매력적인 요소였습니다. 풀리지 않는 문제를 스스로 해결했을때의 성취감은 지속적으로 공부를 할 수 있게 만드는 원동력이 되었습니다.
+  
+  IoT 업무를 진행하며 클라우드에 대해서 처음 접하게 되었고, 클라우드 산업으로 커리어를 확장하기 위해 준비하였습니다. 코드스테이츠 데브옵스 부트캠프 과정을 통해 코드로 인프라를 자동화하고 개발 문화를 선도해나가는 DevOps 직무에 매료되어 직무전환을 꿈꾸게 되었습니다.
+  
+  ---
+
+  ## **저는 이런 사람입니다.**
+  - 책임감이 강하고 목표를 달성하기 위해 [노력합니다.](images/project04.jpeg)
+  - 불편한 것을 당연히 여기지 않으며 이를 개선하기 위한 방안을 [찾습니다.](https://velog.io/@xgro/%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-%EA%B7%80%EC%B0%AE%EC%95%84)
+  - 성장 과정에서 배운것을 구성원들과 공유하고 피드백을 받으며 일하는것을 [좋아합니다.](https://xgro.notion.site/reputation-41c97f2bf15b4fcb9d3718f356c8dd71) 
+
+  ---
+
+  ## **저의 목표는 다음과 같습니다.**
+  - 동료 개발자들이 마음놓고 실수 할 수 있는 개발환경을 구축하고 싶습니다.
+  - FinOps에 관심이 [많습니다.](https://velog.io/@xgro/VPC-Endpoint) 담당하는 인프라에 대한 이해를 바탕으로 비용 최적화를 구현하는 엔지니어가 되고자 합니다.
+  - 실수를 줄이기 위해 코드로서 인프라를 관리하는 IaC에 관심이 [많습니다.](https://velog.io/@xgro/terraform-infra-provisioning)
 
 # 콘텐츠 작성
 content:
@@ -44,7 +60,7 @@ content:
         quote: >
           클라이언트 요구사항에 따라 온프레미스 환경에서 설치 및 운영되고 있는 사내 정보 시스템을 AWS 클라우드로 이관
         description: | # this will include new lines to allow paragraphs
-          - <mark>VPC 엔드포인트</mark> 이용하여 서비스 구축시 트래픽 약 285GB 기점으로 비용 절감
+          - <mark>VPC 엔드포인트</mark> 이용하여 서비스 구축 NAT gateway 대비 300GB 기준 30% 비용 절감
           - JWT 토큰 기반 인증 시스템 API Gateway <mark>권한부여자 구현</mark>함으로서 인증 서버 속도 개선
           - Private 환경으로 인스턴스 구성
           - Cloudmap 사용으로 PrivateLink 사용시 
@@ -83,7 +99,7 @@ content:
           클라이언트 요구사항에 따라 어플리케이션을 AWS 컨테이너 서비스로 이관하고 CI/CD 파이프라인 구축
         description: | # this will include new lines to allow paragraphs
           - <mark>AWS Codebuild</mark>로 React artifact to S3 CI/CD 파이프라인 구축
-          - <mark>Github Action</mark>으로 fastify artifact to ECS CI/CD 파이프라인 구축
+          - <mark>Github Action</mark>로 Fastify artifact to ECS CI/CD 파이프라인 구축
           - AWS ECS 서비스를 이용하여 어플리케이션 <mark>컨테이너 환경</mark> 배포
           - Cloudfront 및 ALB 사용하여 https 리다이렉션 기능
           - mongoDB Backend 코드 작성
@@ -151,11 +167,10 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      이전의 이재찬이 궁금하시다면 아래 링크를 참고 부탁드립니다.
+      - [Resume](https://www.jobkorea.co.kr/User/Resume/View?rNo=9681034)
+      - [Portfolio](https://file2.jobkorea.co.kr/Net/Mng/UserDown/ResumeAttach?idx=6936996)
+
 
 
 # Look at this cool image  
