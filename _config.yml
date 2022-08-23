@@ -40,8 +40,8 @@ about_content: | # this will include new lines to allow paragraphs
 
   ## **저의 목표는 다음과 같습니다.**
   - 동료 개발자들이 마음놓고 실수 할 수 있는 개발환경을 구축하고 싶습니다.
-  - [<U>FinOps에 관심이 많습니다.</U>](https://velog.io/@xgro/VPC-Endpoint) 담당하는 인프라에 대한 이해를 바탕으로 비용 최적화를 구현하는 엔지니어가 되고자 합니다.
-  - 코드로서 인프라를 관리하는 [<U>IaC에 관심이 많습니다.</U>](https://velog.io/@xgro/terraform-infra-provisioning) 인프라 자동화 구축에 기여하고 싶습니다.
+  - [<U>FinOps에 관심이 많습니다.</U>](https://velog.io/@xgro/VPC-Endpoint) 인프라에 대한 이해를 바탕으로 비용 최적화를 구현하는 엔지니어가 되고자 합니다.
+  - 코드로서 인프라를 관리하는 [<U>IaC에 관심이 많습니다.</U>](https://velog.io/@xgro/terraform-infra-provisioning) 인프라 자동화 구축에 기여하겠습니다.
 
 # 콘텐츠 작성
 content:
