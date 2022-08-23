@@ -79,7 +79,7 @@ content:
         quote: >
           클라이언트 요구사항에 따라 자동 재고 확보 시스템을 Micro Service Architecture로 구성
         description: | # this will include new lines to allow paragraphs
-          - <mark>Serverless framework</mark>를 이용하여 Lambda 배포
+          - Serverless framework를 이용하여 Lambda 배포
           - SQS를 이용하여 서비스간 <mark>느슨한 결합</mark> 구성
           - Dead Letter Queue를 이용하여 메시지 전달 실패시 리드라이브를 통해 시스템 안정성 확보 
           - 서비스 외부의 Callback 메시지를 수신하여 재고 관리
