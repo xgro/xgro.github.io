@@ -1,6 +1,6 @@
 # Site
 repository: xgro/xgro.github.io
-favicon: images/xgro.ico
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -168,8 +168,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       이전의 이재찬이 궁금하시다면 아래 링크를 참고 부탁드립니다.
-      - [Resume](https://www.jobkorea.co.kr/User/Resume/View?rNo=9681034)
-      - [Portfolio](https://file2.jobkorea.co.kr/Net/Mng/UserDown/ResumeAttach?idx=6936996)
+      - [portfolio.pdf](https://github.com/xgro/xgro.github.io/raw/main/_data/portfolio.pdf)
 
 
 
