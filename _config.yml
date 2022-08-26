@@ -61,7 +61,7 @@ content:
           클라이언트 요구사항에 따라 온프레미스 환경에서 설치 및 운영되고 있는 사내 정보 시스템을 AWS 클라우드로 이관
         description: | # this will include new lines to allow paragraphs
           - <mark>VPC 엔드포인트</mark> 이용하여 서비스 구축 NAT gateway 대비 300GB 기준 30% 비용 절감
-          - JWT 토큰 기반 인증 시스템 API Gateway <mark>권한부여자 구현</mark>함으로서 인증 서버 속도 개선
+          - JWT 토큰 기반 인증 시스템 API Gateway [<U>권한부여자 구현</U>](https://github.com/xgro/authorizer_lambda)함으로서 인증 서버 속도 개선
           - Private 환경으로 인스턴스 구성
           - Cloudmap 사용으로 PrivateLink 사용시 
           - DynamoDB 이용을 위한 Backend 프로그램 작성
