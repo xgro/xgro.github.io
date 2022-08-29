@@ -167,8 +167,8 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      이전의 이재찬이 궁금하시다면 아래 링크를 참고 부탁드립니다.
-      - [portfolio.pdf](https://github.com/xgro/xgro.github.io/raw/main/_data/portfolio.pdf)
+      펌웨어 개발자로서 3년의 경험이 있습니다.
+      - [firmware_portfolio.pdf](https://github.com/xgro/xgro.github.io/raw/main/_data/portfolio.pdf)
 
 
 
