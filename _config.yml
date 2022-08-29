@@ -167,7 +167,8 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      펌웨어 개발자로서 3년의 경험이 있습니다.
+      펌웨어 개발자로서 3년의 경험이 있습니다.   
+      이전 경력이 궁금하시다면 아래 링크를 통해 확인 가능합니다.
       - [firmware_portfolio.pdf](https://github.com/xgro/xgro.github.io/raw/main/_data/portfolio.pdf)
 
 
