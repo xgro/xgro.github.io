@@ -63,7 +63,7 @@ content:
           - <mark>VPC 엔드포인트</mark> 이용하여 서비스 구축 NAT gateway 대비 300GB 기준 30% 비용 절감
           - JWT 토큰 기반 인증 시스템 API Gateway [<U>권한부여자 구현</U>](https://github.com/xgro/authorizer_lambda)함으로서 인증 서버 속도 개선
           - Private 환경으로 인스턴스 구성
-          - Cloudmap 사용으로 PrivateLink 사용시 
+          - Cloudmap 사용으로 VPC Link - ELB 대체함으로서 비용 절감
           - DynamoDB 이용을 위한 Backend 프로그램 작성
           - Terraform 코드 작성 및 GitOps 환경 구축
 
